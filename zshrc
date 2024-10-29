@@ -70,10 +70,5 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
-export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 eval "$(direnv hook zsh)"
