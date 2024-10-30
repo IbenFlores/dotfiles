@@ -72,3 +72,4 @@ export EDITOR=code
 export PYTHONBREAKPOINT=ipdb.set_trace
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 eval "$(direnv hook zsh)"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
